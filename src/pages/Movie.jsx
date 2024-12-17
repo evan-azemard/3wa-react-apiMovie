@@ -85,8 +85,6 @@ return (
             height="315"
             src={`https://www.youtube.com/embed/${videos[0].key}`}
             title={videos[0].name}
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
           ></iframe>
         </div>
       )}
